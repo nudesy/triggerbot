@@ -1,4 +1,4 @@
-# made by rejencheetos
+# made by rejenxcheetos
 import pymem, pymem.process, keyboard, time
 from pynput.mouse import Controller, Button
 from win32gui import GetWindowText, GetForegroundWindow
@@ -17,7 +17,7 @@ m_iHealth = client.get('C_BaseEntity', 'm_iHealth')
 
 
 def main():
-    print(f"[-] TriggerBot działa.|||||https://github.com/R3jeen\n[-] Klawisz użytku: {triggerKey.upper()}")
+    print(f"[-] TriggerBot działa.||||| https://github.com/R3jeen\n[-] Klawisz użytku: {triggerKey.upper()}")
     pm = pymem.Pymem("cs2.exe")
     client = pymem.process.module_from_name(pm.process_handle, "client.dll").lpBaseOfDll
 
