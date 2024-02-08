@@ -1,0 +1,1 @@
+triggerKey = "alt"
